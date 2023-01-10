@@ -1,0 +1,7 @@
+.Territory{
+  background-color: rgb(212, 255, 241);
+  border: solid rgb(255, 255, 255) 1px;
+  flex-grow: 1;
+  height:15vh;
+  cursor:pointer;
+}
