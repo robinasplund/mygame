@@ -1,0 +1,7 @@
+
+.Game{
+  border:solid 1px black;
+  display:flex;
+  display:flex;
+  flex-direction: row;
+}

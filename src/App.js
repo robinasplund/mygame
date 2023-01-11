@@ -1,26 +1,14 @@
 import './App.css';
-import React,{ useState } from 'react';
-import Gameboard from './Component/Gameboard/Gameboard';
+import React from 'react';
+import Game from './Container/Game.js'
 
 function App() {
-
+ 
   
   return (
     <div className="App">
 
-      <div className='PlayerStats'>       
-        
-      </div>
-
-      <div className='Gameboard'>
-        <Gameboard />
-      </div>
-
-      <div className='Rightfield'>
-      
-      </div>
-
-      
+      <Game />
       
     </div>
   );

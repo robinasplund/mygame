@@ -1,0 +1,10 @@
+
+.Map{
+  display:flex;
+  flex-grow:2;
+  border:solid blue 1px;
+}
+.TerritoryRow{
+  display:flex;
+  flex-direction: row;
+}
