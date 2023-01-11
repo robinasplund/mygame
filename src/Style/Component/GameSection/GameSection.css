@@ -1,6 +1,23 @@
 
 .GameSection{
-  border:solid red 1px;
   display:flex;
   flex-grow: 1;
+  padding:1vh;
+}
+
+.PlayerSection{
+  display:flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+.PlayerInfo{
+  display: flex;
+  flex-direction: column;
+}
+.Name,.Armies,.Turn{
+  display:flex;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+  font-size: calc((0.7vmin) + (0.7vmax));
 }

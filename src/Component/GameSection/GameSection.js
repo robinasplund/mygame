@@ -1,13 +1,27 @@
 import React from 'react';
 import './../../Style/Component/GameSection/GameSection.css'
 
-
-
-const GameSection = () => {
+const GameSection = ({player1,player2}) => {
 
   return(
     <div className='GameSection'>
-      This is the Gamesection
+
+      <div className='PlayerSection'>
+
+        <div className='PlayerInfo'>
+           <div className='Name'>{player1.name}</div>
+           <div className='Armies'>{player1.armies}</div>
+           <div className='Turn'>Spelarens tur</div>
+        </div>
+        <div className='PlayerInfo' style={{marginTop:'5vh'}}>
+          <div className='Name'>{player2.name}</div>
+          <div className='Armies'>{player2.armies}</div>
+          <div className='Turn'>Spelarens tur</div>
+        </div>
+
+        
+      </div>
+
     </div>
   );
 }
